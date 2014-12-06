@@ -1,5 +1,6 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
+<<<<<<< HEAD
 <style>
 #header{
 width: 100%;
@@ -55,6 +56,10 @@ font-size: 15px;}
 <div id="content">
 
 	Access is denied
+=======
+<body>
+	<h1>Access is denied</h1>
+>>>>>>> 60cf97f96a8deff7169e66e9682c1006b0eb7bd2
 	<c:choose>
 		<c:when test="${empty username}">
 			<h2>You do not have permission to access this page!</h2>
@@ -87,8 +92,11 @@ font-size: 15px;}
 
 
 	</sec:authorize>
+<<<<<<< HEAD
 </div>
 <div id="footer">footer</div>
+=======
+>>>>>>> 60cf97f96a8deff7169e66e9682c1006b0eb7bd2
 
 </body>
 </html>

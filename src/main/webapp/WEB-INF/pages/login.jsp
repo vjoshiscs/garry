@@ -136,7 +136,11 @@
                     alt="">
                 <input type="text" class="form-control" placeholder="Username" name="username" required autofocus>
                 <input type="password" class="form-control" placeholder="Password" name="password" required>
+<<<<<<< HEAD
                 </br><button class="btn btn-lg btn-primary btn-block" type="submit">
+=======
+               </br> <button class="btn btn-lg btn-primary btn-block" type="submit">
+>>>>>>> 60cf97f96a8deff7169e66e9682c1006b0eb7bd2
                     Sign in</button>
                 
             </div>
